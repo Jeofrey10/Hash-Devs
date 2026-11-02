@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <rect width="100" height="100" rx="16" fill="#000000"/>
+  <!-- Left slanted slash -->
+  <path d="M38 18 L24 82" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round"/>
+  <!-- Right slanted slash (Signal Green accent from logo) -->
+  <path d="M66 18 L52 82" stroke="#3DDC57" stroke-width="12" stroke-linecap="round"/>
+  <!-- Top horizontal bar -->
+  <path d="M16 38 L84 38" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round"/>
+  <!-- Bottom horizontal bar -->
+  <path d="M16 62 L84 62" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round"/>
+</svg>
+
