@@ -35,7 +35,7 @@ export default function Process() {
   ];
 
   return (
-    <section id="process" className="bg-black px-6 md:px-12 py-28 md:py-40 border-b border-hairline relative overflow-hidden">
+    <section id="process" className="bg-black px-4 sm:px-6 md:px-12 py-16 sm:py-24 md:py-32 border-b border-hairline relative overflow-hidden">
       {/* Dot grid accent */}
       <div className="absolute top-0 right-0 w-1/3 h-full bg-dot-grid opacity-20 pointer-events-none" />
 

@@ -5,15 +5,15 @@ import Reveal, { StaggerContainer, StaggerItem } from "./Reveal";
 
 export default function Intro() {
   return (
-    <section className="bg-ink px-6 md:px-12 py-28 md:py-40 border-b border-hairline relative overflow-hidden">
+    <section className="bg-ink px-4 sm:px-6 md:px-12 py-16 sm:py-24 md:py-32 border-b border-hairline relative overflow-hidden">
       {/* Subtle gradient overlay */}
       <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-transparent pointer-events-none" />
 
-      <div className="max-w-[1440px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-16 items-start relative z-10">
+      <div className="max-w-[1440px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 sm:gap-12 lg:gap-16 items-start relative z-10">
         {/* Left Column */}
         <div className="lg:col-span-6">
           <Reveal delay={0}>
-            <div className="flex items-center gap-3 mb-6">
+            <div className="flex items-center gap-3 mb-4 sm:mb-6">
               <span className="font-hanken font-medium text-[11px] tracking-[0.07em] uppercase text-mist/60">01/</span>
               <div className="h-px w-8 bg-signal-green/40" />
               <span className="font-hanken font-medium text-[11px] tracking-[0.07em] uppercase text-signal-green">
@@ -23,7 +23,7 @@ export default function Intro() {
           </Reveal>
 
           <Reveal delay={0.1}>
-            <h2 className="font-hanken font-medium text-4xl sm:text-5xl md:text-[54px] tracking-[-0.045em] text-white leading-[1.08]">
+            <h2 className="font-hanken font-medium text-3xl sm:text-4xl md:text-5xl lg:text-[54px] tracking-[-0.045em] text-white leading-[1.08]">
               One connected <br />
               <span className="text-signal-green">digital experience.</span>
             </h2>
@@ -31,9 +31,9 @@ export default function Intro() {
         </div>
 
         {/* Right Column */}
-        <div className="lg:col-span-6 flex flex-col justify-between h-full space-y-10">
+        <div className="lg:col-span-6 flex flex-col justify-between h-full space-y-6 sm:space-y-8 lg:space-y-10">
           <Reveal delay={0.15}>
-            <p className="font-hanken text-[17px] text-mist/90 leading-[1.65] max-w-lg">
+            <p className="font-hanken text-[15px] sm:text-[17px] text-mist/90 leading-[1.65] max-w-lg">
               We bring development, creative design, and digital marketing together,
               helping customers discover your business, understand your offer, and
               take the next step.
@@ -41,7 +41,7 @@ export default function Intro() {
           </Reveal>
 
           {/* 3 Metric Pills — artcraft editorial numbering */}
-          <StaggerContainer className="grid grid-cols-3 gap-4 pt-8 border-t border-hairline" staggerDelay={0.12}>
+          <StaggerContainer className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 pt-6 sm:pt-8 border-t border-hairline" staggerDelay={0.12}>
             {[
               { num: "01", label: "DEVELOP", desc: "Code & systems" },
               { num: "02", label: "DESIGN", desc: "Visual identity" },

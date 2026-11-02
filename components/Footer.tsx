@@ -53,7 +53,7 @@ export default function Footer() {
       {/* Top accent line */}
       <div className="h-px w-full bg-gradient-to-r from-transparent via-signal-green/30 to-transparent" />
 
-      <div className="pt-16 sm:pt-20 pb-0 px-6 md:px-12">
+      <div className="pt-12 sm:pt-16 pb-0 px-4 sm:px-6 md:px-12">
         <div className="max-w-[1440px] mx-auto relative z-10">
           {/* Main footer grid */}
           <div className="grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-8 mb-16">

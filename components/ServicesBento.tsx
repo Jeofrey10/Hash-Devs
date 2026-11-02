@@ -57,7 +57,7 @@ export default function ServicesBento() {
   ];
 
   return (
-    <section id="services" className="bg-ink px-6 md:px-12 py-28 md:py-40 border-b border-hairline relative">
+    <section id="services" className="bg-ink px-4 sm:px-6 md:px-12 py-16 sm:py-24 md:py-32 border-b border-hairline relative">
       <div className="max-w-[1440px] mx-auto">
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-20 gap-8">

@@ -11,15 +11,15 @@ export default function InterfaceConcept() {
   const timeSlots = ["09:00", "10:30", "14:00"];
 
   return (
-    <section id="concept" className="bg-black px-6 md:px-12 py-28 md:py-40 border-b border-hairline relative overflow-hidden">
+    <section id="concept" className="bg-black px-4 sm:px-6 md:px-12 py-16 sm:py-24 md:py-32 border-b border-hairline relative overflow-hidden">
       {/* Dot grid background */}
       <div className="absolute inset-0 bg-dot-grid opacity-30 pointer-events-none" />
 
       <div className="max-w-[1440px] mx-auto relative z-10">
         {/* Section Header — endcap.design typography */}
-        <div className="max-w-3xl mx-auto text-center mb-20">
+        <div className="max-w-3xl mx-auto text-center mb-10 sm:mb-16">
           <Reveal>
-            <div className="flex items-center justify-center gap-3 mb-6">
+            <div className="flex items-center justify-center gap-3 mb-4 sm:mb-6">
               <div className="h-px w-8 bg-signal-green/40" />
               <span className="font-hanken font-medium text-[11px] tracking-[0.07em] uppercase text-mist/60">
                 02/ <span className="text-signal-green">Live Preview</span>
@@ -29,14 +29,14 @@ export default function InterfaceConcept() {
           </Reveal>
 
           <Reveal delay={0.1}>
-            <h2 className="font-hanken font-medium text-3xl sm:text-5xl lg:text-[54px] tracking-[-0.045em] text-white mb-5 leading-[1.08]">
+            <h2 className="font-hanken font-medium text-2xl sm:text-4xl lg:text-[50px] tracking-[-0.045em] text-white mb-3 sm:mb-5 leading-[1.1]">
               Website + app <br className="hidden sm:block" />
               <span className="text-signal-green">interface concept.</span>
             </h2>
           </Reveal>
 
           <Reveal delay={0.15}>
-            <p className="font-hanken text-[15px] sm:text-[17px] text-mist/80 max-w-lg mx-auto leading-[1.6]">
+            <p className="font-hanken text-[14px] sm:text-[16px] text-mist/80 max-w-lg mx-auto leading-[1.6] px-4">
               Real interactive mockup demonstrating synchronized state across browser and mobile devices.
             </p>
           </Reveal>

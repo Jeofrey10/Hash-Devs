@@ -30,7 +30,7 @@ export default function ContactCTA() {
   };
 
   return (
-    <section id="contact" className="bg-ink px-6 md:px-12 py-28 md:py-40 relative overflow-hidden">
+    <section id="contact" className="bg-ink px-4 sm:px-6 md:px-12 py-16 sm:py-24 md:py-32 relative overflow-hidden">
       {/* Background accent */}
       <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-signal-green/20 via-signal-green/5 to-transparent" />
 
